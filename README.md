@@ -1,6 +1,6 @@
 # Enc2Dec
 
-分享各站爬虫加密解密Demo
+分享自写或收集的各站爬虫加密解密，没有实战代码，只是拆分出来的Demo，方便使用。
 
 |   |   |
 | --- | --- |
@@ -13,6 +13,7 @@
 
 ## 目录
 - [x] [哔哩哔哩-SIGN计算](https://github.com/lkeme/Enc2Dec/tree/master/Bilibili)
+- [x] [网易云音乐-参数加密](https://github.com/lkeme/Enc2Dec/tree/master/Netease)
 
 ------
 陆续施工中...

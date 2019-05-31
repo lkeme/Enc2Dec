@@ -9,11 +9,11 @@
 
 ## 文件
 
-**`sign.py`**
+**`enc_params.py`**
 
 ### 功能
 
-哔哩哔哩app客户端请求的sign参数加密
+网易云音乐客户端`params`&`encSecKey`参数加密
 
 ### 更新
 
@@ -21,6 +21,4 @@
 
 ### 说明
 
-1. 提交参数需要按key排序(升序排序)  
-2. 部分API需要可能需要有app_key参数(抓包结果)  
-3. 尾部加上app_secret进行md5的加密
+AES&RSA加密
