@@ -1,4 +1,4 @@
-|   |   |
+| INFO | DESCRIBE  |
 | --- | --- |
 | Author  | Lkeme |
 | Email | Useri@live.cn  |
@@ -13,7 +13,8 @@
 
 ### 功能
 
-哔哩哔哩app客户端请求的sign参数加密
+应用于`https://*.bilibili.com/*`的大部分API, 参数`sign`  
+哔哩哔哩app客户端大部分请求的sign参数加密
 
 ### 更新
 

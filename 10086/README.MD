@@ -4,23 +4,22 @@
 | Email | Useri@live.cn  |
 | Website | [https://mudew.com](https://mudew.com "沐雨露の山头") |
 | Group |  [55308141](https://jq.qq.com/?_wv=1027&k=5AIDaJg) 
-| Date | 2019-5-31 |
+| Date | 2019-6-08 |
 
 
 ## 文件
 
-**`enc_params.py`**
+**`wx10086_enc_params.py`**
 
 ### 功能
 
-应用于`http://music.163.com/weapi/*`, 参数`params`&`encSecKey`  
-
-网易云音乐请求参数加密(webapi，pc客户端好像也用的这个)
+应用于`http://wx.10086.cn/website/bind/bindAccount/new`, 参数`telephone`  
+中国移动的验证码登录(短信验证&语音验证)需要的参数加解密
 
 ### 更新
 
-* 2019-5-31：第一次添加文件
+* 2019-06-08：第一次添加文件
 
 ### 说明
 
-AES&RSA加密
+AES\CBC\PKCS7 (key\lv)

@@ -2,7 +2,9 @@
 
 分享自写或收集的各站爬虫加密解密，没有实战代码，只是拆分出来的Demo，方便使用。
 
-|   |   |
+------
+
+| INFO | DESCRIBE  |
 | --- | --- |
 | Author  | Lkeme |
 | Email | Useri@live.cn  |
@@ -11,9 +13,10 @@
 
 -------
 
-## 目录
+## List
 - [x] [哔哩哔哩-SIGN计算](https://github.com/lkeme/Enc2Dec/tree/master/Bilibili)
-- [x] [网易云音乐-参数加密](https://github.com/lkeme/Enc2Dec/tree/master/Netease)
+- [x] [网易云音乐-通用参数加密](https://github.com/lkeme/Enc2Dec/tree/master/Netease)
+- [x] [中国移动-手机号参数加解密](https://github.com/lkeme/Enc2Dec/tree/master/10086)
 
 ------
 陆续施工中...
