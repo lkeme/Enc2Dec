@@ -17,6 +17,7 @@
 - [x] [哔哩哔哩-SIGN计算](https://github.com/lkeme/Enc2Dec/tree/master/Bilibili)
 - [x] [网易云音乐-通用参数加密](https://github.com/lkeme/Enc2Dec/tree/master/Netease)
 - [x] [中国移动-手机号参数加解密](https://github.com/lkeme/Enc2Dec/tree/master/10086)
+- [x] [重庆移动-短信密码参数加密](https://github.com/lkeme/Enc2Dec/tree/master/CQ10086)
 
 ------
 陆续施工中...
