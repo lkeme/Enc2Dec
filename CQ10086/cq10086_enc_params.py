@@ -26,10 +26,11 @@ def get_js_ctx():
 
 # 登录
 def login(phone, sms_passwd, ctx):
-    base_url = "https://wap.cq.10086.cn/wap?service=ajaxDirect/1/touch.Login/touch.Login/javascript/&"
+    base_url = "https://wap.cq.10086.cn/wap?"
     xx = ctx.strEnc(sms_passwd, phone[:8], phone[1:9], phone[3:11])
     params = {
-        "pagename": "touch.Login",
+        'service': 'ajaxDirect/1/touch.Login/touch.Login/javascript/',
+        'pagename': 'touch.Login',
         'eventname': "smsLogin",
         'phoneNo': phone,  # 458731
         'smsCheckPwd': xx[:6],
@@ -41,7 +42,7 @@ def login(phone, sms_passwd, ctx):
         'ajaxSubmitType': 'get',
         'ajax_randomcode': random.uniform(0, 1),
     }
-    url = f'{base_url}{urlencode(params)}'
+    url = f'{base_url}{urlencode(params)}'.replace('%2F', '/')
     headers = {
         'Accept': 'application/xml, text/xml, */*; q=0.01',
         'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8',
