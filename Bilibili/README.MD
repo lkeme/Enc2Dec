@@ -45,4 +45,4 @@
 
 1. 提交参数可能需要按key排序(升序排序)  
 2. SHA256加密是hashlib的不是hmac
-3. 
+3. [查阅文档](https://mudew.com/20190611/Bilibili-Android%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%92%AD%E6%94%BE%E6%95%B0%E6%8D%AE%E5%8C%85%E8%A7%A3%E6%9E%90/)
